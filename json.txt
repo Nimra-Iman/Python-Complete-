@@ -1,0 +1,21 @@
+When data is said to be in JSON format, it means that the data is structured and formatted
+ according to the JSON (JavaScript Object Notation) syntax. JSON is a lightweight 
+ data-interchange format that is easy for humans to read and write, and it is widely
+  used for transmitting and storing data in web applications and APIs.
+
+Key Characteristics of JSON Format:
+Syntax:
+JSON data is represented as key-value pairs enclosed in curly braces {}.
+Keys are strings enclosed in double quotes ("key"), followed by a colon (:), and values can be strings, numbers, booleans, arrays ([]), or nested JSON objects.
+Example:
+{
+  "name": "John Doe",
+  "age": 30,
+  "is_student": false,
+  "hobbies": ["reading", "running", "gardening"],
+  "address": {
+    "street": "123 Main St",
+    "city": "Cityville",
+    "country": "USA"
+  }
+}

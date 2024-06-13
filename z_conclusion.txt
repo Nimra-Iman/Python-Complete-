@@ -1,0 +1,18 @@
+for data science:
+    ----- learn numpy to some extent and pandas to large extent
+    ----- after this, learn scikit-learn and tensor-flow (data science and ML go hand in hand)
+--> PYTHON FOR DATA ANALYSIS  by WES MICKINNEY(baher ek janvar type bna h) 
+bbbbeeesssstttt book, if you study tis book, your life will change, this book is ammazzzingg.
+--> HANDS ON MACHINE LEARNING WITH scikit-Learn, KERAS AND tensorFLOW (lizard type
+kuch bna h baher) is book ki jitniiiiii ttaaareeeff kro km h, bhhhhhhhttttttt 
+kmmaaaaalllll ki book h, (in dono ko parh kr sab seekh jao gy) and buy recent version of both 
+of these books.
+
+YT channel "google developers" learn ML.
+try to learn DSA in C++,C or JAVA. don't learn DSA in python
+
+for DEEP LEARNING:
+    learn tensorflow and tensorflow hub.
+for ML:
+    learn pytorch(library h ek)
+

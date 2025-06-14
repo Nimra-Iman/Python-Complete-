@@ -4,6 +4,7 @@
 import name2_equal_main
 print(name2_equal_main.harry())
 
+print(__name__)
 # agar m n name_equal2 valy module m harry() ko call kia ho ga to is module ko import
 # krty hi vo vala (yani harry vala function) function automatically yhan bhi chaly
 # ga yani k agar us harry() valy m kuch esa code likha hota jo k system ki saari
@@ -21,8 +22,6 @@ print(name2_equal_main.harry())
 # agar ap ko lgta h k is file ko import kia ja skta h to phir to zroor lgao q k
 # agar us file m koi critical function hua to ek import krny s hi ap k system ki saaarii
 # files delete bhi ho skti h
-
-
 
 
 

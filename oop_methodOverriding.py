@@ -37,7 +37,7 @@ class Child(Parnt):
         print("in child")
 
 c=Child()
-c.p()
+# c.p()
 
 
 #########  another example using super

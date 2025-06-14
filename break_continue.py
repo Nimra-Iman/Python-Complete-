@@ -31,6 +31,7 @@ list = [2,5,8,1,3,4]
 list.sort()
 print(list)
 
+print('start yha s hio rha h ')
 # breaks in nested loops(example 1)
 list = ["nimra","iman","rer","kin","kinza"]
 for items in list:

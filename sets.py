@@ -87,7 +87,7 @@ print(s2)
 # difference  difference: jo elements ek m ho but doosry m na ho
 s1={2,3,4,1}
 s2={4,5,7}
-print("yhan s")
+print("yhan ssss")
 w=s2.difference(s1) #and this line will give different output than "w=s1.difference(s2)"
 print(w)
 print(s1)

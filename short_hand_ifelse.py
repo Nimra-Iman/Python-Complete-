@@ -39,3 +39,16 @@ elif (b == 50):
   print("you are masssyyy pas")
 else:
   print("you are fail")
+
+
+
+
+
+a=int(input('enter a value between 2 and 9'))
+# if (a<2 or a>9):
+#   raise ValueError('entered nu,ber is wrong')
+# else:
+#   print('entered number is correct')
+
+raise ValueError('number if wrong') if (a<2 or a>9) else print('ok')
+

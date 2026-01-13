@@ -1,7 +1,7 @@
-# x={"name" : "nimra", "age":20}
-# for i in x:
-#     print(i)
-#     print(x[i])
+x={"name" : "nimra", "age":20}
+for i in x:
+    print(i)
+    print(x[i])
 
 # list = [1,0,8,4,"nimra","iman"]
 # print(list)

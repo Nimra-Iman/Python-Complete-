@@ -1,3 +1,7 @@
+
+# CONTINUE IS ONLY APPLICABLE WITH A CONDITION
+
+
 # breaking out of loop(yani  break s loop k baher, 
 # break khy ga k loop ko chor kr nikal jao)
 # break s ham loop k baher a jaty hn but continue s ham lo
@@ -61,12 +65,12 @@ for items in list:
 # print("bas")
 
 # # example 2 easy
-# for i in range(1,4):
-#     if(i==3):
-#         break
-#     for j in range(1,4):
-#         print(i,j)
-
+for i in range(1,4):
+    if(i==3):
+        break   # ab neechy vali loop bhi nhi chaly gi q k of course loop vhi khatam ho jay 
+    # cursor loop s baher a jay ga or neechy vala jo bhi ho ga vo nhi chaly ga 
+    for j in range(1,4):
+        print(i,j)
 
     
 # # nested loop with continue
@@ -77,6 +81,10 @@ for items in list:
 #         print(i,j) 
 
 
+i = 1 
+1,1
+1,2
+1,3
 
           
         

@@ -34,15 +34,22 @@ print(a.upper())
 #************* important concept for interview****
 a = "nimra"
 print(a)
-print(
-    a.upper()
-)  #kia y statement a="nimra" vali string ko upper case m convert kr de gi? to is ka answer ho ga k nhi kr skti q k strings are immutable, is statement "print(a.upper())" k zrye jo string ay gi vo ek new string ho gi , poorani vali string change nhi hui; yani string methods existing string pr operate krty hn or ek new string bnaty hn
+print(a.upper())  #kia y statement a="nimra" vali string ko upper case m convert kr de gi? 
+# to is ka answer ho ga k nhi kr skti q k strings are immutable, is 
+# statement "print(a.upper())" k zrye jo string ay gi vo ek new string
+#  ho gi , poorani vali string change nhi hui; yani string methods
+# existing string pr operate krty hn or ek new string bnaty hn
 a="nnnnnnimannnnnnnnnnnnnnn"
 print(a.rstrip("n"))
-#  'rstrip' function strips the character from right side and there is another command 'lstrips' which strips the character from left side and 'strip' function strips the character from anyside of the string
-# upper(), lower(),len(),rstrip(),split(),center(),count(),find(),index(),endswith(), islanum(), isalpha(), islower(), isprintable(), isspace(), istitle(), isupper(), startwith(), swapcase(), title(),
+#  'rstrip' functionn strips the character from right side
+#  and there is another command 'lstrips' which strips the character from 
+# left side and 'strip' function strips the character from anyside
+#  of the string
+# upper(), lower(),len(),rstrip(),split(),center(),count(),find(),index(),
+# endswith(), islanum(), isalpha(), islower(), isprintable(), isspace(),
+#  istitle(), isupper(), startwith(), swapcase(), title(),
 
-a="55nimra Iman is Great555555"
+a="55nimra 5 Iman is Great555555"
 
 print(a.isspace())
 print(a.count("is"))
@@ -50,9 +57,9 @@ print(len(a))
 print(a.upper())
 print(a.lower())
 print(a.capitalize()) #phla letter capital or baqi sary letters small krde ga 
-print(a.rstrip("5"))
-print(a.lstrip("5"))
-print(a.strip("5"))
+print(a.rstrip("5"))  #just corners s dekhy ga, center valy 5 pr act nhi kry ga
+print(a.lstrip("5"))  #just corners s dekhy ga, center valy 5 pr act nhi kry ga
+print(a.strip("5")) #just corners s dekhy ga, center valy 5 pr act nhi kry ga
 print(a.split("r"))
 print(a.title())
 print(a.endswith("t"))
@@ -74,6 +81,9 @@ print(len(a.center(50,"*")))
 print(a.replace("nimra","kinza")) #replce all occurances
 print(a.isprintable())
 print(a.isspace())
+
+b = '\n \t'
+print(b.isspace())
 
 
 # to find whether certain thing present in string or not:

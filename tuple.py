@@ -1,5 +1,6 @@
 tup=("nim")
 print(tup)
+print(type(tup))
 tup=(2,4,5,"nimra")
 print(tup)
 tup=(1)

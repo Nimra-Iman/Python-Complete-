@@ -25,3 +25,22 @@ print(__name__)
 
 
 
+# IN SIMPLE WORDS: means each file has name = main if it is executed directly. we write
+#  this code print(__name__), we will see the output as __main__, but when we import the
+#  same function in a sepratae python file, we will see that print(__name__) will provide 
+# the name of the python file in which this function is executed. means, in simple terms,
+#  the name remain main unless it is not imported, but when we import a file or some 
+# functions of this file, the __name__ of the file that is imported will
+#  become 'file name' instead of __main__, or is trah conditon false ho gi, yani 
+# ab _name_ main k equal nhi h, is liye function bhi automatic executaion s bacha 
+# rhy ga
+
+
+# 🧠 Final correct understanding (rewritten properly)
+
+# Each Python file has its own __name__.
+# Only the file that is executed directly gets __name__ == "__main__".
+# When a file is imported, its __name__ becomes the file name, not __main__.
+# Because of this, code inside
+# if __name__ == "__main__":
+# does not execute automatically when the file is imported

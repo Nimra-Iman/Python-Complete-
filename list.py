@@ -72,7 +72,7 @@ print(com)
 # $$$$$$$$$$$$$$$$$  LIST METHODS $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 list=[1,2,3,4]
 print(list)
-list.append(9)
+list.append(9)  #name m hi 'end' h, yani end pr new element add ho ga 
 print(list)
 # append,sort, reverse, index, count, copy, insert, extend, +(concatinationg), clear
 
@@ -174,3 +174,7 @@ print("list you eneterd=",b)
 print("list after clearing all items = = ")
 b.clear()
 print(b)
+
+
+
+

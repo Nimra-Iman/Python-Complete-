@@ -13,6 +13,8 @@
 a={5,3,7,1,"nimra",True}
 print(a) 
 
+tupl = ()
+print(tupl)
 
 s={2,1,"nim",True, 33}
 print(s)

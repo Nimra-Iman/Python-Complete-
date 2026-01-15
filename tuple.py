@@ -45,7 +45,8 @@ print(tuple.count(2))
 # index
 print(tuple.index(1))
 # concatinating
-tup=("pkaista",) # pkaista k baad "," is liye lgaya q k single lement h, python us single element ko ab ek string consider kry ga
+tup=("pkaista",) # pkaista k baad "," is liye lgaya q k single lement h, python us 
+# single element ko ab ek string consider kry ga
 tupp=tuple+tup
 print("by concatinationg two tuples = ",tupp)
 # length of tuple

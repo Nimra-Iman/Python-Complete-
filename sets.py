@@ -13,8 +13,6 @@
 a={5,3,7,1,"nimra",True}
 print(a) 
 
-tupl = ()
-print(tupl)
 
 s={2,1,"nim",True, 33}
 print(s)
@@ -33,7 +31,7 @@ z=set()
 print(type(z))
 # agar hm eplty set is trah bnay "z={}" to is ki type dictonery ho jay gi
 
-# ^^^^^^^^^^^^^^^^^^^^^^  list methods  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+# ^^^^^^^^^^^^^^^^^^^^^^  sets methods  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #             union(), update(), intersection(),intersection_update(),
 #             symmetric_difference(), symmetric_difference_update(), difference(), 

@@ -44,10 +44,10 @@ for i in li:
 print(newli)
 
 
-#  !!!!!!!!!!!!! REDUCE  !!!!!!!!!!!!!!!!!!!
+#  !!!!!!!!!!!!! REDUCE (perform commulative operation ) !!!!!!!!!!!!!!!!!!!
 from functools import reduce
 li=[2,3,4,5]
 newli=reduce((lambda x,y: x+y), li)
-print(newli)
+print(newli) 
 
 # reduce ko hmy import krna prta h 

@@ -72,13 +72,27 @@ for i in range(1,4):
     for j in range(1,4):
         print(i,j)
 
-    
+print() 
 # # nested loop with continue
-# for i in range(1,4):
-#     for j in range(1,4):
-#         if(i==j):
-#             continue
-#         print(i,j) 
+for i in range(1,4):
+    for j in range(1,4):
+        if(i==j):
+            continue
+        print(i,j) 
+
+
+
+# 1 2
+# 1 3
+# 2 1
+# 2 3
+
+
+
+
+
+
+
 
 
 i = 1 
